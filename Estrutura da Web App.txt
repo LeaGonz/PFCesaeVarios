@@ -1,0 +1,27 @@
+** Estrutura da Web App **
+
+- Ver o campo de jogo com as duas metades (ataque e defesa)
+- Arrastar e soltar jogadores para posicioná-los no campo (Revisar se arrastar ou não)
+- Clicar em um jogador para registrar estatísticas (ações do jogo)
+- Mostrar estatísticas individuais e da equipe em tempo real
+- Gerar relatórios detalhados (Plus)
+
+** Barra (Esquerda/Direita/Baixo) **
+
+- Lista de jogadores disponíveis
+- Permitir filtrar por equipe e posição
+- Área para arrastar e soltar jogadores no campo
+- Área Central (Campo)
+
+** Campo dividido em duas metades (ataque/defesa) **
+- Marcadores indicando onde cada jogador está posicionado
+- Sistema de arrastar e soltar para posicionar jogadores (Revisar)
+
+** Quando um jogador é clicado no campo, abrir um painel/modal com opções para registrar ações (Estatísticas futuras) **
+
+** Botões para ações como **
+- "Lançamento Acertado"
+- "Lançamento Errado"
+- "Recuperação de Bola"
+- "Assistência"
+- "Falta Cometida"

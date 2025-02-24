@@ -1,0 +1,34 @@
+BD MySQL
+Tabelas principais
+
+** jogadores **
+id (PK)
+nome
+data_nascimento
+equipe_id (FK para equipes)
+
+** equipes **
+id (PK)
+nome
+treinador
+
+** jogos **
+id (PK)
+data
+local
+equipe_a_id (FK para equipes)
+equipe_b_id (FK para equipes)
+resultado
+
+** estatisticas_jogador **
+id (PK)
+jogo_id (FK para jogos)
+jogador_id (FK para jogadores)
+tempo_jogado
+posicao_campo (ataque/defesa)
+lancamentos_feitos
+lancamentos_acertados
+recuperacoes
+assistencias
+erros
+faltas_cometidas
